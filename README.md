@@ -4,7 +4,7 @@
 
 The `node-init` script helps developers initialize a node project quickly by automatically creating the base architecture.
 
-##  Contenu
+##  Content
 
 This script executes several commands for your new Node.js project. The output will be displayed in your default terminal.
 
@@ -32,11 +32,11 @@ $ npm install
 $ node index 'name of the folder to create'
 ```
 
-To use node-init anywhere, you can create an alias with zsh. 
-
 ## Create an alias
 
-```js
+To use node-init anywhere, you can create an alias with zsh. 
+
+```console
 // In the .zshrc folder
 alias node-init='node /path/to/the/node-init/folder/ index.js'
 ```
@@ -45,7 +45,7 @@ Now you can use node-init anywhere to create a project node!
 
 ## Use node-init with alias
 
-```js
+```console
 // Location where you want to create a project node
 $ node-init 'name of the folder to create'
 
@@ -56,3 +56,10 @@ $ npm install
 // Launch the page '/' (Running in port 3000)
 $ nodemon index 
 ```
+## Support
+
+Please file issues here at Github.
+
+Mail: alex-viard@hotmail.fr 
+
+Created and maintained by [Alex Viard](https://github.com/AlexViard)
