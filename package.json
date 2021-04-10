@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AlexViard/node-init#readme",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "package.json": "^2.0.1"
   }
 }
