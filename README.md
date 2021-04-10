@@ -36,7 +36,7 @@ $ node index 'name of the folder to create'
 
 To use node-init anywhere, you can create an alias with zsh. 
 
-```
+```js
 // In the .zshrc folder
 alias node-init='node /path/to/the/node-init/folder/ index.js'
 ```
@@ -45,7 +45,7 @@ Now you can use node-init anywhere to create a project node!
 
 ## Use node-init with alias
 
-```
+```js
 // Location where you want to create a project node
 $ node-init 'name of the folder to create'
 
